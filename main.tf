@@ -1,4 +1,4 @@
-resource "local_file" "powitanie" {
-  content  = "print('Uszanowanko')\n"
-  filename = "${path.module}/powitanie.py"
+resource "local_file" "foo" {
+  content  = var.powitanie
+  filename = "${path.module}/${var.powitanie}"
 }
