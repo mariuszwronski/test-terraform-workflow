@@ -1,6 +1,6 @@
 variable "plik" {
   type = string
-  default = "powitanie.py"
+  default = "powitanie2.py"
 }
 variable "powitanie" {
   type = string
